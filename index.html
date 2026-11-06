@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oh! Words – A new English word every day</title>
+<meta name="description" content="Learn one new English word every day. Hear it, say it, and see how it's used. No ads, no accounts and no tracking.">
+<link rel="icon" href="images/icon.png">
+<style>
+  :root { --bg: #E6F1FB; --card: #ffffff; --text: #042C53; --muted: #3d5a78; --accent: #185FA5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0A1220; --card: #13203a; --text: #eef4fb; --muted: #a9bdd4; --accent: #85B7EB; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main, footer { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+  a { color: var(--accent); }
+  h1, h2 { font-family: Georgia, serif; line-height: 1.15; }
+  .hero { text-align: center; padding: 56px 0 32px; }
+  .hero img { width: 128px; height: 128px; }
+  .hero h1 { font-size: clamp(40px, 8vw, 60px); margin: 16px 0 8px; }
+  .lead { font-size: clamp(19px, 3vw, 23px); color: var(--muted); margin: 0 auto; max-width: 30em; text-wrap: balance; }
+  .shots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 32px 0 48px; }
+  .shots img { display: block; width: 100%; height: auto; border-radius: 18px; }
+  .features { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .card { background: var(--card); border-radius: 18px; padding: 20px 24px; }
+  .card h2 { font-size: 24px; margin: 0 0 6px; }
+  .card p { margin: 0; color: var(--muted); }
+  .plain { text-align: center; color: var(--muted); margin: 40px auto; max-width: 32em; }
+  footer { text-align: center; padding-bottom: 48px; }
+  footer a { margin: 0 10px; white-space: nowrap; }
+  @media (max-width: 700px) {
+    .shots { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; margin-inline: -16px; padding-inline: 16px; }
+    .shots img { flex: 0 0 62%; width: 62%; scroll-snap-align: center; }
+    .features { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <img src="images/icon.png" alt="" width="128" height="128">
+    <h1>Oh! Words</h1>
+    <p class="lead">A new English word every day. Hear it, say it, and see how it's really used.</p>
+  </header>
+
+  <div class="shots">
+    <img src="images/1-today.jpg" width="506" height="1100" alt="Today's word, with its pronunciation, meanings and example sentences.">
+    <img src="images/2-sayit.jpg" width="506" height="1100" alt="Saying a word aloud and being told it was said correctly.">
+    <img src="images/3-streak.jpg" width="506" height="1100" alt="A twelve-day streak and the badges earned so far.">
+    <img src="images/4-widgets.jpg" width="506" height="1100" alt="Home Screen widgets showing the word of the day in three styles.">
+  </div>
+
+  <section class="features">
+    <div class="card"><h2>Hear it</h2><p>See the pronunciation written out, listen to a real person say many of the words, and slow it down to catch every sound.</p></div>
+    <div class="card"><h2>Say it</h2><p>Pronounce the word and find out if you got it right. Your voice is checked privately on your device and never recorded.</p></div>
+    <div class="card"><h2>Understand it</h2><p>Clear, modern meanings, with example sentences that show how each word is used.</p></div>
+    <div class="card"><h2>Make it a habit</h2><p>Keep a daily streak, earn badges, set a reminder, and see the day's word in Home Screen and Lock Screen widgets.</p></div>
+  </section>
+
+  <p class="plain">Choose Everyday, Expanding or Rare words, or a mix of all three. Oh! Words has no ads, no accounts and no tracking, and it collects no personal information.</p>
+</main>
+<footer>
+  <a href="support.html">Support</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="credits.html">Credits</a>
+</footer>
+</body>
+</html>
